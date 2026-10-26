@@ -20,16 +20,6 @@ The destination-selection window displays **developed by hmnd-team** in its nati
 - Avoids overwriting files by adding a suffix such as `photo (1).jpg`.
 - Keeps preferences locally and does not send files or metadata over the internet.
 
-## Install from Windows CMD
-
-Requires [Git for Windows](https://git-scm.com/downloads/win). Open **Command Prompt (CMD)** and paste this command to download the files into a permanent folder and start the organizer:
-
-```bat
-git clone https://github.com/hdefacio/windows-ultra-light-download-organizer-for-works-en-pt.git "%USERPROFILE%\DownloadOrganizer" && cd /d "%USERPROFILE%\DownloadOrganizer" && start "" "Start_DownloadOrganizer.vbs"
-```
-
-For manual installation, use the instructions below. **This is a standalone Windows program, not a ComfyUI custom node.** Do not clone it into `ComfyUI\custom_nodes`: placing it there will not register a ComfyUI node. The organizer can, however, move downloaded models and LoRAs into ComfyUI directories.
-
 ## Installation
 
 1. Download and extract the ZIP to a permanent folder.

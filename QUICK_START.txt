@@ -1,0 +1,52 @@
+﻿DOWNLOAD ORGANIZER — WINDOWS 10 / 11
+==================================
+
+LANGUAGES: English / Português / Español
+- First launch: English by default.
+- Use the Language selector at the top of the main window.
+- Your selection is saved and restored the next time you run the app.
+
+QUICK START (ENGLISH)
+1. Extract ALL files from this ZIP into the same permanent folder.
+2. Double-click Start_DownloadOrganizer.vbs.
+3. The program starts monitoring the Windows Downloads folder automatically.
+   Use "Change folder" if your browser downloads elsewhere.
+4. After a new download completes, choose a destination in the pop-up window.
+   The 12 recent destinations have X | number | editable path | OK.
+   OK moves the file; X removes that path from history, not from your disk.
+5. To quit, click Exit or use the tray icon menu > Quit.
+6. To diagnose startup errors, run Troubleshoot_Console.bat.
+
+INÍCIO RÁPIDO (PORTUGUÊS)
+1. Extraia TODOS os arquivos para a mesma pasta permanente.
+2. Execute Start_DownloadOrganizer.vbs com dois cliques.
+3. No seletor Language, escolha Português. O idioma será lembrado.
+4. O programa monitora Downloads; use Trocar pasta se necessário.
+5. Ao terminar um download, clique em OK numa das 12 pastas para mover.
+   X remove apenas o caminho do histórico; não apaga a pasta real.
+6. Para sair, use Encerrar ou o menu do ícone perto do relógio.
+
+INICIO RÁPIDO (ESPAÑOL)
+1. Extraiga TODOS los archivos en una misma carpeta permanente.
+2. Abra Start_DownloadOrganizer.vbs con doble clic.
+3. En Language, elija Español. Se recordará la selección.
+4. La aplicación supervisa Descargas; use Cambiar carpeta si hace falta.
+5. Tras cada descarga, pulse OK junto a una de las 12 rutas para moverla.
+   X solo elimina la ruta del historial, no la carpeta real.
+6. Para salir, use Salir o el menú del icono junto al reloj.
+
+NOTES / OBSERVAÇÕES / NOTAS
+- No Python or Chrome extension required / Não exige Python nem extensão.
+- Ignores incomplete .crdownload, .download, .part, .partial, .tmp,
+  .opdownload and .aria2 files.
+- Does not process old files present before the program started.
+- Monitors one folder, not its subfolders.
+- It stays running when you close/minimize the main window.
+- Preferences and your 12 recent folders are saved here:
+  %LOCALAPPDATA%\OrganizadorDeDownloads\config.json
+- Updating the application does NOT reset paths or language preferences.
+- The app does not upload files or connect to the internet.
+
+VERSION 3.1.2 / VERSÃO 3.1.2 / VERSIÓN 3.1.2
+
+NOTA v3.1.1: O iniciador VBS foi corrigido para compatibilidade com o Windows Script Host.

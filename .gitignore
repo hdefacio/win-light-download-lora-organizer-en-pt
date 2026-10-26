@@ -1,0 +1,8 @@
+# Preferencias e arquivos gerados localmente
+config.json
+*.log
+*.tmp
+*.crdownload
+*.download
+Thumbs.db
+.DS_Store

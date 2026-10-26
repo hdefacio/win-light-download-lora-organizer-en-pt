@@ -1,5 +1,7 @@
 # Download Organizer for Windows — v3.1.2
 
+![Download Organizer — destination selection window](assets/download-organizer-interface.png)
+
 A lightweight Windows 10/11 tool that watches your Downloads folder and asks where to move each new file **after the download finishes**. Written in PowerShell 5.1 and Windows Forms. No Chrome extension, Python installation or third-party dependencies are required.
 
 ## 🌐 Languages / Idiomas / Idiomas

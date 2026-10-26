@@ -4,12 +4,6 @@
 
 A lightweight Windows 10/11 tool that watches your Downloads folder and asks where to move each new file **after the download finishes**. Written in PowerShell 5.1 and Windows Forms. No Chrome extension, Python installation or third-party dependencies are required.
 
-## 🌐 Languages / Idiomas / Idiomas
-
-The interface supports **English, Português (Brazil) and Español**. On the first run, the program starts in **English**. Select the language from the drop-down at the top of the main window; the main window and tray menu update immediately. The download destination dialog, notifications, and folder picker prompts use the chosen language. Your choice is saved in `%LOCALAPPDATA%\OrganizadorDeDownloads\config.json` alongside the existing settings. Upgrading from an older version does not delete your recent folder history.
-
-The destination-selection window displays **developed by hmnd-team** in its native title bar, immediately after the translated title.
-
 ## Features
 
 - Auto-detects the Windows Downloads known folder, including relocated folders. You can choose another folder to watch.
@@ -65,3 +59,7 @@ El Organizador de Descargas vigila una carpeta y pregunta dónde mover cada arch
 ## License
 
 MIT License — copyright (c) 2026 hmnd-team. Reuse, modifications and redistribution are permitted if the original copyright and license notice are kept. See [LICENSE](LICENSE).
+
+## 🌐 Languages / Idiomas / Idiomas
+
+The interface supports **English, Português (Brazil) and Español**. On the first run, the program starts in **English**. Select the language from the drop-down at the top of the main window; the main window and tray menu update immediately. `%LOCALAPPDATA%\OrganizadorDeDownloads\config.json`
